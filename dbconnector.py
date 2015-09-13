@@ -24,7 +24,7 @@ def addStock(dict, cat):
     
     #if stock isn't in the db lets add it there
     if not stock:
-        #because python didn't like finish letters, we can change them back
+        #because python didn't like Finnish letters, we can change them back
         if "'O'" in cat:
             cat = cat.replace("'O'", u"Ö")
             
@@ -52,7 +52,7 @@ def addStock(dict, cat):
             
         with transaction.manager:
             name = dict['name']
-            #because python didn't like finish letters, we can change them back
+            #because python didn't like finnish letters, we can change them back
             if "'a'" in name:
                 name = name.replace("'a'", u"ä")
             if "'o'" in name:

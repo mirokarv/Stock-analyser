@@ -1,4 +1,4 @@
-#Stock data miner and analyser for Finish stocks README
+#Stock data miner and analyser for Finnish stocks README
 
 ##Getting Started
 

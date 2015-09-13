@@ -56,7 +56,7 @@ def parser(text):
             if name == '-':
                 name = None
                 
-            #python doesn't like always finish letters, so lets cheat a little    
+            #python doesn't like always Finnish letters, so lets cheat a little    
             if '\xc3\xa4' in name:
                 name = name.replace('\xc3\xa4', "'a'")
             if '\xc3\xb6' in name:
@@ -253,7 +253,7 @@ def mainData():
             name = name.replace('<h3>', '')
             name = name.replace('</h3></td>', '')
             
-            #python doesn't like finish letters, lets cheat little in here
+            #python doesn't like Finnish letters, lets cheat little in here
             if '\xc3\x96' in name:
                 name = name.replace('\xc3\x96', "'O'")
                 
@@ -406,7 +406,7 @@ def parseTrendText(text, id):
             
             month = date[1]
             year = date[2]
-            #in finish on time string part has klo on it. in swedish there is only date items
+            #in Finnish on time string part has klo on it. in swedish there is only date items
             if 'klo' in date:
                 time = date[4]
             else:
