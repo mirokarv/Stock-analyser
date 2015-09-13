@@ -5,13 +5,14 @@
 ### Requirements
 - Python 2.7 used
 - 4 spaces used for indenting
+
 #### Packages used
 - Sqlalchemy, transaction, requests
 
 ### Instructions
 
 #### Netcrawler.py:
--Mines all the data
+- Mines all the data
 - optional arguments: int. Int is related to stocks ids, if script stops in middle of running you can restart it where it stopped
 
 #### dbconnector.py 
